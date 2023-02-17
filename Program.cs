@@ -1,11 +1,11 @@
 ﻿//ejercicio 1
-byte edad;
+byte num;
 try
 {
     Console.WriteLine("ingrese su edad");
-    edad= Convert.ToByte(Console.ReadLine());
+    num= Convert.ToByte(Console.ReadLine());
     Console.WriteLine("ingrese el segundo numero de dos cifras");
-    Console.WriteLine( $"no aparentas {edad} anios");
+    Console.WriteLine( $"no aparentas {num} anios");
 }
 catch (Exception op)
 {
