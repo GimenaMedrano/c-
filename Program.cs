@@ -9,7 +9,7 @@ try
 }
 catch (Exception op)
 {
-    Console.WriteLine("Erros.Ingrese un numero entero.");
+    Console.WriteLine("Erros.Por favor revise el dato ingresado.");
     Console.WriteLine("La exepcion es: " + op.Message);
 }
 //ejercio 2
